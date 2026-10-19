@@ -1,0 +1,40 @@
+{'arm': 'A1', 'metric': 'euclidean', 'n_features': 32, 'resolution': 0.1, 'n_clusters': 8, 'mean_f1': 0.43, 'ari': 0.946, 'nmi': 0.914, 'stability_ari': 0.969}
+{'arm': 'A1', 'metric': 'euclidean', 'n_features': 32, 'resolution': 0.2, 'n_clusters': 10, 'mean_f1': 0.508, 'ari': 0.968, 'nmi': 0.941, 'stability_ari': 0.987}
+{'arm': 'A1', 'metric': 'euclidean', 'n_features': 32, 'resolution': 0.3, 'n_clusters': 11, 'mean_f1': 0.508, 'ari': 0.969, 'nmi': 0.941, 'stability_ari': 0.988}
+{'arm': 'A1', 'metric': 'euclidean', 'n_features': 32, 'resolution': 0.5, 'n_clusters': 16, 'mean_f1': 0.556, 'ari': 0.898, 'nmi': 0.899, 'stability_ari': 0.934}
+{'arm': 'A1', 'metric': 'euclidean', 'n_features': 32, 'resolution': 0.8, 'n_clusters': 17, 'mean_f1': 0.547, 'ari': 0.874, 'nmi': 0.884, 'stability_ari': 0.888}
+{'arm': 'A1', 'metric': 'euclidean', 'n_features': 32, 'resolution': 1.0, 'n_clusters': 19, 'mean_f1': 0.593, 'ari': 0.689, 'nmi': 0.835, 'stability_ari': 0.871}
+{'arm': 'A1', 'metric': 'euclidean', 'n_features': 32, 'resolution': 1.5, 'n_clusters': 25, 'mean_f1': 0.546, 'ari': 0.544, 'nmi': 0.783, 'stability_ari': 0.795}
+A1 euclidean done in 92 s
+{'arm': 'C_gate', 'metric': 'euclidean', 'n_features': 32, 'resolution': 0.1, 'n_clusters': 4, 'mean_f1': 0.232, 'ari': 0.575, 'nmi': 0.743, 'stability_ari': 0.942}
+{'arm': 'C_gate', 'metric': 'euclidean', 'n_features': 32, 'resolution': 0.2, 'n_clusters': 5, 'mean_f1': 0.285, 'ari': 0.671, 'nmi': 0.799, 'stability_ari': 0.962}
+{'arm': 'C_gate', 'metric': 'euclidean', 'n_features': 32, 'resolution': 0.3, 'n_clusters': 5, 'mean_f1': 0.284, 'ari': 0.67, 'nmi': 0.799, 'stability_ari': 0.825}
+{'arm': 'C_gate', 'metric': 'euclidean', 'n_features': 32, 'resolution': 0.5, 'n_clusters': 8, 'mean_f1': 0.497, 'ari': 0.912, 'nmi': 0.888, 'stability_ari': 0.965}
+{'arm': 'C_gate', 'metric': 'euclidean', 'n_features': 32, 'resolution': 0.8, 'n_clusters': 10, 'mean_f1': 0.561, 'ari': 0.875, 'nmi': 0.866, 'stability_ari': 0.909}
+{'arm': 'C_gate', 'metric': 'euclidean', 'n_features': 32, 'resolution': 1.0, 'n_clusters': 12, 'mean_f1': 0.519, 'ari': 0.731, 'nmi': 0.821, 'stability_ari': 0.733}
+{'arm': 'C_gate', 'metric': 'euclidean', 'n_features': 32, 'resolution': 1.5, 'n_clusters': 20, 'mean_f1': 0.466, 'ari': 0.447, 'nmi': 0.715, 'stability_ari': 0.642}
+C_gate euclidean done in 71 s
+{'arm': 'C_gate', 'metric': 'hamming', 'n_features': 25, 'resolution': 0.1, 'n_clusters': 18, 'mean_f1': 0.17, 'ari': 0.477, 'nmi': 0.634, 'stability_ari': 0.97}
+{'arm': 'C_gate', 'metric': 'hamming', 'n_features': 25, 'resolution': 0.2, 'n_clusters': 22, 'mean_f1': 0.301, 'ari': 0.582, 'nmi': 0.697, 'stability_ari': 0.746}
+{'arm': 'C_gate', 'metric': 'hamming', 'n_features': 25, 'resolution': 0.3, 'n_clusters': 30, 'mean_f1': 0.339, 'ari': 0.655, 'nmi': 0.724, 'stability_ari': 0.802}
+{'arm': 'C_gate', 'metric': 'hamming', 'n_features': 25, 'resolution': 0.5, 'n_clusters': 37, 'mean_f1': 0.244, 'ari': 0.309, 'nmi': 0.591, 'stability_ari': 0.664}
+{'arm': 'C_gate', 'metric': 'hamming', 'n_features': 25, 'resolution': 0.8, 'n_clusters': 48, 'mean_f1': 0.279, 'ari': 0.237, 'nmi': 0.573, 'stability_ari': 0.592}
+{'arm': 'C_gate', 'metric': 'hamming', 'n_features': 25, 'resolution': 1.0, 'n_clusters': 57, 'mean_f1': 0.31, 'ari': 0.193, 'nmi': 0.566, 'stability_ari': 0.581}
+{'arm': 'C_gate', 'metric': 'hamming', 'n_features': 25, 'resolution': 1.5, 'n_clusters': 87, 'mean_f1': 0.276, 'ari': 0.13, 'nmi': 0.526, 'stability_ari': 0.607}
+C_gate hamming done in 56 s
+{'arm': 'D_gate', 'metric': 'hamming', 'n_features': 32, 'resolution': 0.1, 'n_clusters': 3, 'mean_f1': 0.168, 'ari': 0.516, 'nmi': 0.68, 'stability_ari': 0.91}
+{'arm': 'D_gate', 'metric': 'hamming', 'n_features': 32, 'resolution': 0.2, 'n_clusters': 5, 'mean_f1': 0.281, 'ari': 0.668, 'nmi': 0.793, 'stability_ari': 0.984}
+{'arm': 'D_gate', 'metric': 'hamming', 'n_features': 32, 'resolution': 0.3, 'n_clusters': 6, 'mean_f1': 0.368, 'ari': 0.884, 'nmi': 0.857, 'stability_ari': 0.954}
+{'arm': 'D_gate', 'metric': 'hamming', 'n_features': 32, 'resolution': 0.5, 'n_clusters': 11, 'mean_f1': 0.435, 'ari': 0.903, 'nmi': 0.871, 'stability_ari': 0.957}
+{'arm': 'D_gate', 'metric': 'hamming', 'n_features': 32, 'resolution': 0.8, 'n_clusters': 10, 'mean_f1': 0.42, 'ari': 0.795, 'nmi': 0.828, 'stability_ari': 0.806}
+{'arm': 'D_gate', 'metric': 'hamming', 'n_features': 32, 'resolution': 1.0, 'n_clusters': 16, 'mean_f1': 0.434, 'ari': 0.575, 'nmi': 0.748, 'stability_ari': 0.685}
+{'arm': 'D_gate', 'metric': 'hamming', 'n_features': 32, 'resolution': 1.5, 'n_clusters': 25, 'mean_f1': 0.381, 'ari': 0.364, 'nmi': 0.676, 'stability_ari': 0.612}
+D_gate hamming done in 55 s
+{'arm': 'D_gate_clean', 'metric': 'hamming', 'n_features': 15, 'resolution': 0.1, 'n_clusters': 393, 'mean_f1': 0.379, 'ari': 0.073, 'nmi': 0.474, 'stability_ari': 0.678}
+{'arm': 'D_gate_clean', 'metric': 'hamming', 'n_features': 15, 'resolution': 0.2, 'n_clusters': 432, 'mean_f1': 0.363, 'ari': 0.064, 'nmi': 0.475, 'stability_ari': 0.752}
+{'arm': 'D_gate_clean', 'metric': 'hamming', 'n_features': 15, 'resolution': 0.3, 'n_clusters': 460, 'mean_f1': 0.39, 'ari': 0.055, 'nmi': 0.466, 'stability_ari': 0.77}
+{'arm': 'D_gate_clean', 'metric': 'hamming', 'n_features': 15, 'resolution': 0.5, 'n_clusters': 507, 'mean_f1': 0.38, 'ari': 0.043, 'nmi': 0.465, 'stability_ari': 0.812}
+{'arm': 'D_gate_clean', 'metric': 'hamming', 'n_features': 15, 'resolution': 0.8, 'n_clusters': 546, 'mean_f1': 0.387, 'ari': 0.037, 'nmi': 0.466, 'stability_ari': 0.846}
+{'arm': 'D_gate_clean', 'metric': 'hamming', 'n_features': 15, 'resolution': 1.0, 'n_clusters': 572, 'mean_f1': 0.392, 'ari': 0.034, 'nmi': 0.464, 'stability_ari': 0.855}
+{'arm': 'D_gate_clean', 'metric': 'hamming', 'n_features': 15, 'resolution': 1.5, 'n_clusters': 618, 'mean_f1': 0.382, 'ari': 0.03, 'nmi': 0.458, 'stability_ari': 0.875}
+D_gate_clean hamming done in 57 s

@@ -1,0 +1,11 @@
+HIPC_tcell A1 {'k': 12, 'stability_ari': 0.803, 'n_clusters_found': 12, 'pca5': 0.919, 'pca1': 0.329, 'two_nn_id': 8.572}
+HIPC_tcell B_geom {'k': 12, 'stability_ari': 0.715, 'n_clusters_found': 12, 'pca5': 0.935, 'pca1': 0.318, 'two_nn_id': 8.307}
+HIPC_tcell B_site {'k': 12, 'stability_ari': 0.818, 'n_clusters_found': 12, 'pca5': 0.939, 'pca1': 0.29, 'two_nn_id': 8.223}
+HIPC_tcell B_pool {'k': 12, 'stability_ari': 0.762, 'n_clusters_found': 12, 'pca5': 0.939, 'pca1': 0.301, 'two_nn_id': 8.37}
+HIPC_tcell done in 169 s
+HIPC_tcell_k30 A1 {'k': 30, 'stability_ari': 0.734, 'n_clusters_found': 30, 'pca5': 0.918, 'pca1': 0.329, 'two_nn_id': 8.732}
+HIPC_tcell_k30 B_geom {'k': 30, 'stability_ari': 0.673, 'n_clusters_found': 30, 'pca5': 0.935, 'pca1': 0.317, 'two_nn_id': 8.461}
+HIPC_tcell_k30 B_site {'k': 30, 'stability_ari': 0.718, 'n_clusters_found': 30, 'pca5': 0.939, 'pca1': 0.293, 'two_nn_id': 8.238}
+HIPC_tcell_k30 B_pool {'k': 30, 'stability_ari': 0.711, 'n_clusters_found': 30, 'pca5': 0.939, 'pca1': 0.301, 'two_nn_id': 8.266}
+HIPC_tcell_k30 done in 169 s
+EXIT 0

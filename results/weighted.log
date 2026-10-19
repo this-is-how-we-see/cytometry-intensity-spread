@@ -1,0 +1,14 @@
+Levine_32dim_k40 A1 {'k': 40, 'mean_f1': 0.793, 'ari': 0.803, 'nmi': 0.834, 'stability_ari': 0.786, 'n_clusters_found': 40, 'pca5': 0.685, 'pca1': 0.367, 'two_nn_id': 18.765}
+Levine_32dim_k40 A2 {'k': 40, 'mean_f1': 0.629, 'ari': 0.677, 'nmi': 0.763, 'stability_ari': 0.719, 'n_clusters_found': 40, 'pca5': 0.494, 'pca1': 0.169, 'two_nn_id': 18.919}
+Levine_32dim_k40 C2 {'k': 40, 'mean_f1': 0.44, 'ari': 0.261, 'nmi': 0.547, 'stability_ari': 0.348, 'n_clusters_found': 40, 'pca5': 0.57, 'pca1': 0.195, 'two_nn_id': 17.909, 'occupied_phenotypes': 113405, 'possible_phenotypes': 33554432, 'phenotypes_covering_95pct': 100124}
+Levine_32dim_k40 W {'k': 40, 'mean_f1': 0.682, 'ari': 0.62, 'nmi': 0.775, 'stability_ari': 0.693, 'n_clusters_found': 40, 'pca5': 0.887, 'pca1': 0.725, 'two_nn_id': 17.689}
+Levine_32dim_k40 W_z {'k': 40, 'mean_f1': 0.674, 'ari': 0.684, 'nmi': 0.781, 'stability_ari': 0.701, 'n_clusters_found': 40, 'pca5': 0.623, 'pca1': 0.338, 'two_nn_id': 19.25}
+Levine_32dim_k40 P {'k': 40, 'mean_f1': 0.437, 'ari': 0.242, 'nmi': 0.538, 'stability_ari': 0.36, 'n_clusters_found': 40, 'pca5': 0.601, 'pca1': 0.206, 'two_nn_id': 18.896}
+Levine_32dim_k40 done in 147 s
+Samusik_01_k40 A1 {'k': 40, 'mean_f1': 0.697, 'ari': 0.847, 'nmi': 0.829, 'stability_ari': 0.755, 'n_clusters_found': 40, 'pca5': 0.686, 'pca1': 0.373, 'two_nn_id': 22.643}
+Samusik_01_k40 A2 {'k': 40, 'mean_f1': 0.595, 'ari': 0.48, 'nmi': 0.66, 'stability_ari': 0.753, 'n_clusters_found': 40, 'pca5': 0.448, 'pca1': 0.166, 'two_nn_id': 23.062}
+Samusik_01_k40 C2 {'k': 40, 'mean_f1': 0.391, 'ari': 0.424, 'nmi': 0.579, 'stability_ari': 0.538, 'n_clusters_found': 40, 'pca5': 0.499, 'pca1': 0.192, 'two_nn_id': 20.972, 'occupied_phenotypes': 65061, 'possible_phenotypes': 268435456, 'phenotypes_covering_95pct': 60718}
+Samusik_01_k40 W {'k': 40, 'mean_f1': 0.655, 'ari': 0.755, 'nmi': 0.791, 'stability_ari': 0.69, 'n_clusters_found': 40, 'pca5': 0.798, 'pca1': 0.484, 'two_nn_id': 20.109}
+Samusik_01_k40 W_z {'k': 40, 'mean_f1': 0.685, 'ari': 0.697, 'nmi': 0.756, 'stability_ari': 0.71, 'n_clusters_found': 40, 'pca5': 0.528, 'pca1': 0.274, 'two_nn_id': 23.092}
+Samusik_01_k40 P {'k': 40, 'mean_f1': 0.455, 'ari': 0.394, 'nmi': 0.545, 'stability_ari': 0.563, 'n_clusters_found': 40, 'pca5': 0.529, 'pca1': 0.204, 'two_nn_id': 21.922}
+Samusik_01_k40 done in 119 s

@@ -1,0 +1,16 @@
+HIPC_tcell A1 {'k': 12, 'stability_ari': 0.803, 'n_clusters_found': 12, 'pca5': 0.919, 'pca1': 0.329, 'two_nn_id': 8.572}
+HIPC_tcell A2 {'k': 12, 'stability_ari': 0.736, 'n_clusters_found': 12, 'pca5': 0.913, 'pca1': 0.315, 'two_nn_id': 8.69}
+HIPC_tcell A3 {'k': 12, 'stability_ari': 0.813, 'n_clusters_found': 12, 'pca5': 0.917, 'pca1': 0.32, 'two_nn_id': 8.828}
+HIPC_tcell B_geom {'k': 12, 'stability_ari': 0.715, 'n_clusters_found': 12, 'pca5': 0.935, 'pca1': 0.314, 'two_nn_id': 8.442}
+HIPC_tcell B_lin {'k': 12, 'stability_ari': 0.75, 'n_clusters_found': 12, 'pca5': 0.923, 'pca1': 0.317, 'two_nn_id': 8.512}
+HIPC_tcell C2 {'k': 12, 'stability_ari': 0.644, 'n_clusters_found': 12, 'pca5': 0.946, 'pca1': 0.526, 'two_nn_id': 2.76, 'occupied_phenotypes': 32, 'possible_phenotypes': 32, 'phenotypes_covering_95pct': 18}
+HIPC_tcell D {'k': 12, 'stability_ari': 0.554, 'n_clusters_found': 12, 'pca5': 0.909, 'pca1': 0.308, 'two_nn_id': 9.259, 'occupied_phenotypes': 128, 'possible_phenotypes': 128, 'phenotypes_covering_95pct': 45}
+HIPC_tcell done in 240 s
+HIPC_tcell_k30 A1 {'k': 30, 'stability_ari': 0.745, 'n_clusters_found': 30, 'pca5': 0.919, 'pca1': 0.33, 'two_nn_id': 8.628}
+HIPC_tcell_k30 A2 {'k': 30, 'stability_ari': 0.773, 'n_clusters_found': 30, 'pca5': 0.912, 'pca1': 0.313, 'two_nn_id': 8.686}
+HIPC_tcell_k30 A3 {'k': 30, 'stability_ari': 0.728, 'n_clusters_found': 30, 'pca5': 0.919, 'pca1': 0.326, 'two_nn_id': 8.904}
+HIPC_tcell_k30 B_geom {'k': 30, 'stability_ari': 0.641, 'n_clusters_found': 30, 'pca5': 0.934, 'pca1': 0.316, 'two_nn_id': 8.369}
+HIPC_tcell_k30 B_lin {'k': 30, 'stability_ari': 0.708, 'n_clusters_found': 30, 'pca5': 0.924, 'pca1': 0.32, 'two_nn_id': 8.631}
+HIPC_tcell_k30 C2 {'k': 30, 'stability_ari': 0.695, 'n_clusters_found': 30, 'pca5': 0.946, 'pca1': 0.526, 'two_nn_id': 2.788, 'occupied_phenotypes': 32, 'possible_phenotypes': 32, 'phenotypes_covering_95pct': 18}
+HIPC_tcell_k30 D {'k': 30, 'stability_ari': 0.756, 'n_clusters_found': 30, 'pca5': 0.909, 'pca1': 0.303, 'two_nn_id': 9.047, 'occupied_phenotypes': 128, 'possible_phenotypes': 128, 'phenotypes_covering_95pct': 45}
+HIPC_tcell_k30 done in 236 s

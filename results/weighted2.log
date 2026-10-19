@@ -1,0 +1,8 @@
+Levine_32dim_k40 A1 {'k': 40, 'mean_f1': 0.793, 'ari': 0.803, 'nmi': 0.834, 'stability_ari': 0.786, 'n_clusters_found': 40, 'pca5': 0.685, 'pca1': 0.367, 'two_nn_id': 18.765}
+Levine_32dim_k40 W2 {'k': 40, 'mean_f1': 0.69, 'ari': 0.643, 'nmi': 0.805, 'stability_ari': 0.683, 'n_clusters_found': 40, 'pca5': 0.737, 'pca1': 0.437, 'two_nn_id': 18.987}
+Levine_32dim_k40 W2s {'k': 40, 'mean_f1': 0.746, 'ari': 0.774, 'nmi': 0.832, 'stability_ari': 0.635, 'n_clusters_found': 40, 'pca5': 0.77, 'pca1': 0.48, 'two_nn_id': 18.94}
+Levine_32dim_k40 done in 73 s
+Samusik_01_k40 A1 {'k': 40, 'mean_f1': 0.697, 'ari': 0.847, 'nmi': 0.829, 'stability_ari': 0.744, 'n_clusters_found': 40, 'pca5': 0.686, 'pca1': 0.372, 'two_nn_id': 22.33}
+Samusik_01_k40 W2 {'k': 40, 'mean_f1': 0.689, 'ari': 0.806, 'nmi': 0.822, 'stability_ari': 0.78, 'n_clusters_found': 40, 'pca5': 0.713, 'pca1': 0.399, 'two_nn_id': 22.168}
+Samusik_01_k40 W2s {'k': 40, 'mean_f1': 0.655, 'ari': 0.746, 'nmi': 0.805, 'stability_ari': 0.782, 'n_clusters_found': 40, 'pca5': 0.737, 'pca1': 0.421, 'two_nn_id': 21.721}
+Samusik_01_k40 done in 60 s

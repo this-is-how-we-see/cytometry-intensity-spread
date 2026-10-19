@@ -1,0 +1,56 @@
+center,dye,file,marker
+Baylor,PE-Cy7,Compensation Controls_CD11c PE-Cy7 Stained Control.fcs,CD11c
+Baylor,PE-Cy7,Compensation Controls_CD194 PE-Cy7 Stained Control.fcs,CD194
+Baylor,PE-Cy7,Compensation Controls_CD196 PE-Cy7 Stained Control.fcs,CD196
+Baylor,PE-Cy7,Compensation Controls_CD27 PE-Cy7 Stained Control.fcs,CD27
+Baylor,APC-Cy7,Compensation Controls_CD3+19+20 APC-H7 Stained Control.fcs,CD3+CD19+CD20
+Baylor,APC-Cy7,Compensation Controls_CD45RO APC-H7 Stained Control.fcs,CD45RO
+Baylor,APC,Compensation Controls_CD127 APC Stained Control.fcs,CD127
+CIMR,PE-Cy7,Compensation Controls_CCR4 PE-Cy7 YG Stained Control.fcs,CCR4
+CIMR,PE-Cy7,Compensation Controls_CCR6 PE-Cy7 YG Stained Control.fcs,CCR6
+CIMR,PE-Cy7,Compensation Controls_CD11c PE-Cy7 YG Stained Control.fcs,CD11c
+CIMR,APC-Cy7,Compensation Controls_CD20 APC-Cy7 Stained Control.fcs,CD20
+CIMR,APC-Cy7,Compensation Controls_CD3_CD19_CD20 APC-Cy7 Stained Control.fcs,CD3+CD19+CD20
+CIMR,APC-Cy7,Compensation Controls_CD45RO APC-Cy7 Stained Control.fcs,CD45RO
+CIMR,PerCP-Cy5.5,Compensation Controls_CD123 PerCP-Cy5-5 Stained Control.fcs,CD123
+CIMR,PerCP-Cy5.5,Compensation Controls_CD19 PerCP-Cy5-5 Stained Control.fcs,CD19
+CIMR,APC,Compensation Controls_CD127 APC Stained Control.fcs,CD127
+CIMR,APC,Compensation Controls_CD16 APC Stained Control.fcs,CD16
+CIMR,PE,Compensation Controls_CD24 PE YG Stained Control.fcs,CD24
+CIMR,PE,Compensation Controls_CD25 PE YG Stained Control.fcs,CD25
+CIMR,PE,Compensation Controls_CD56 PE YG Stained Control.fcs,CD56
+CIMR,PE,Compensation Controls_CXCR3 PE YG Stained Control.fcs,CXCR3
+CIMR,Pacific Blue,Compensation Controls_CD14 Pacific Blue Stained Control.fcs,CD14
+CIMR,AmCyan,Compensation Controls_IGD AmCyan Stained Control.fcs,IGD
+Miami,PE-Cy7,Compensation Controls_CD11c PE Cy7 YG Stained Control_F08.fcs,CD11c
+Miami,PE-Cy7,Compensation Controls_CD194 PE Cy7 YG Stained Control_F06.fcs,CD194
+Miami,PE-Cy7,Compensation Controls_CD196 PE Cy7 YG Stained Control_F09.fcs,CD196
+Miami,PE-Cy7,Compensation Controls_CD27 PE Cy7 YG Stained Control_F07.fcs,CD27
+Miami,APC-Cy7,Compensation Controls_CD20 APC-Cy7 Stained Control_G02.fcs,CD20
+Miami,APC-Cy7,Compensation Controls_CD3+CD19+CD20+ APC-Cy7 Stained Control_G03.fcs,CD3+CD19+CD20
+Miami,APC-Cy7,Compensation Controls_CD45RO APC-Cy7 Stained Control_G01.fcs,CD45RO
+Miami,APC,Compensation Controls_CD127 APC Stained Control_F11.fcs,CD127
+NHLBI,PE-Cy7,Compensation Controls_CCR4 PE-Cy7 G780 Stained Control.fcs,CCR4
+NHLBI,PE-Cy7,Compensation Controls_CCR6 PE-Cy7 G780 Stained Control.fcs,CCR6
+NHLBI,PE-Cy7,Compensation Controls_CD11c PE-Cy7 G780 Stained Control.fcs,CD11c
+NHLBI,PE-Cy7,Compensation Controls_CD27 PE-Cy7 G780 Stained Control.fcs,CD27
+NHLBI,APC-Cy7,Compensation Controls_Lineage APC-H7 R780 Stained Control.fcs,CD3+CD19+CD20
+NHLBI,APC,Compensation Controls_CD127 AF647 R660 Stained Control.fcs,CD127
+UCLA,PE-Cy7,Compensation Controls_CD196 PE-Cy7 Stained Control.fcs,CD196
+UCLA,PE-Cy7,Compensation Controls_CD27 PE-Cy7 Stained Control.fcs,CD27
+UCLA,APC-Cy7,Compensation Controls_CD20 APC-H7 Stained Control.fcs,CD20
+UCLA,APC-Cy7,Compensation Controls_CD45RO APC-H7 Stained Control.fcs,CD45RO
+Yale,PE-Cy7,Specimen_001_CD45RA PE-Cy7.fcs,CD45RA
+Yale,PE-Cy7,Compensation Controls_CD11c PE-Cy7 Stained Control.fcs,CD11c
+Yale,PE-Cy7,Compensation Controls_CD194 PE-Cy7 Stained Control.fcs,CD194
+Yale,PE-Cy7,Compensation Controls_CD196 PE-Cy7 Stained Control.fcs,CD196
+Yale,PE-Cy7,Compensation Controls_CD27 PE-Cy7 Stained Control.fcs,CD27
+Yale,APC-Cy7,Compensation Controls_CD20 APC-Cy7 Stained Control.fcs,CD20
+Yale,APC-Cy7,Specimen_001_CD20 APC-H7.fcs,CD20
+Yale,APC-Cy7,Compensation Controls_CD3+CD19+CD20 APC-Cy7 Stained Control.fcs,CD3+CD19+CD20
+Yale,APC-Cy7,Compensation Controls_CD45RO APC-Cy7 Stained Control.fcs,CD45RO
+Yale,PerCP-Cy5.5,Compensation Controls_PerCP-Cy5-5 Stained Control.fcs,
+Yale,APC,Compensation Controls_CD127 Alexa-647 APC Stained Control.fcs,CD127
+Yale,APC,Compensation Controls_APC Stained Control.fcs,
+Yale,FITC,Compensation Controls_FITC Stained Control.fcs,
+Yale,Pacific Blue,Compensation Controls_V450 Stained Control.fcs,

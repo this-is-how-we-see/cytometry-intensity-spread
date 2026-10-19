@@ -1,0 +1,6 @@
+Mosmann_rare A1 {'k': 40, 'rare_f1': np.float64(0.571), 'rare_precision': np.float64(0.402), 'rare_recall': np.float64(0.982), 'stability_ari': 0.518, 'n_clusters_found': 40, 'pca5': 0.88, 'pca1': 0.416, 'two_nn_id': 13.293}
+Mosmann_rare A2 {'k': 40, 'rare_f1': np.float64(0.608), 'rare_precision': np.float64(0.439), 'rare_recall': np.float64(0.991), 'stability_ari': 0.572, 'n_clusters_found': 40, 'pca5': 0.855, 'pca1': 0.342, 'two_nn_id': 13.556}
+Mosmann_rare A3 {'k': 40, 'rare_f1': np.float64(0.088), 'rare_precision': np.float64(0.047), 'rare_recall': np.float64(0.725), 'stability_ari': 0.589, 'n_clusters_found': 40, 'pca5': 0.865, 'pca1': 0.352, 'two_nn_id': 13.168}
+Mosmann_rare B_geom {'k': 40, 'rare_f1': np.float64(0.127), 'rare_precision': np.float64(0.068), 'rare_recall': np.float64(0.936), 'stability_ari': 0.492, 'n_clusters_found': 40, 'pca5': 0.87, 'pca1': 0.408, 'two_nn_id': 12.642}
+Mosmann_rare B_lin {'k': 40, 'rare_f1': np.float64(0.129), 'rare_precision': np.float64(0.069), 'rare_recall': np.float64(0.945), 'stability_ari': 0.565, 'n_clusters_found': 40, 'pca5': 0.877, 'pca1': 0.414, 'two_nn_id': 13.487}
+Mosmann_rare done in 71 s

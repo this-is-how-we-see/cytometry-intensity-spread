@@ -1,0 +1,9 @@
+[project]
+name = "binary-dimensionality-pilot"
+version = "0.1.0"
+description = "Pilot for the Cytometry Part A representation study: intensity, brightness-normalized, binary"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy", "scipy", "pandas", "scikit-learn", "matplotlib",
+  "flowio", "flowsom", "scanpy", "leidenalg", "igraph", "rdata",
+]

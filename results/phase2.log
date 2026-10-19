@@ -1,0 +1,28 @@
+Levine_13dim A1 {'k': 24, 'mean_f1': 0.359, 'ari': 0.667, 'nmi': 0.805, 'stability_ari': 0.835, 'n_clusters_found': 24, 'pca5': 0.801, 'pca1': 0.278, 'two_nn_id': 13.437}
+Levine_13dim A2 {'k': 24, 'mean_f1': 0.331, 'ari': 0.648, 'nmi': 0.784, 'stability_ari': 0.821, 'n_clusters_found': 24, 'pca5': 0.7, 'pca1': 0.22, 'two_nn_id': 12.668}
+Levine_13dim A3 {'k': 24, 'mean_f1': 0.391, 'ari': 0.742, 'nmi': 0.824, 'stability_ari': 0.808, 'n_clusters_found': 24, 'pca5': 0.748, 'pca1': 0.219, 'two_nn_id': 12.838}
+Levine_13dim C {'k': 24, 'mean_f1': 0.197, 'ari': 0.263, 'nmi': 0.486, 'stability_ari': 0.396, 'n_clusters_found': 24, 'pca5': 0.621, 'pca1': 0.183, 'two_nn_id': 1.39, 'occupied_phenotypes': 3176, 'possible_phenotypes': 4096, 'phenotypes_covering_95pct': 1431}
+Levine_13dim C2 {'k': 24, 'mean_f1': 0.3, 'ari': 0.471, 'nmi': 0.635, 'stability_ari': 0.53, 'n_clusters_found': 24, 'pca5': 0.676, 'pca1': 0.315, 'two_nn_id': 1.518, 'occupied_phenotypes': 3176, 'possible_phenotypes': 4096, 'phenotypes_covering_95pct': 1431}
+Levine_13dim D {'k': 24, 'mean_f1': 0.291, 'ari': 0.49, 'nmi': 0.635, 'stability_ari': 0.443, 'n_clusters_found': 24, 'pca5': 0.607, 'pca1': 0.191, 'two_nn_id': 9.335, 'occupied_phenotypes': 5461, 'possible_phenotypes': 8192, 'phenotypes_covering_95pct': 2535}
+Levine_13dim done in 56 s
+Levine_13dim_k40 A1 {'k': 40, 'mean_f1': 0.53, 'ari': 0.792, 'nmi': 0.828, 'stability_ari': 0.704, 'n_clusters_found': 40, 'pca5': 0.801, 'pca1': 0.279, 'two_nn_id': 13.22}
+Levine_13dim_k40 A2 {'k': 40, 'mean_f1': 0.41, 'ari': 0.591, 'nmi': 0.748, 'stability_ari': 0.651, 'n_clusters_found': 40, 'pca5': 0.702, 'pca1': 0.223, 'two_nn_id': 13.058}
+Levine_13dim_k40 A3 {'k': 40, 'mean_f1': 0.476, 'ari': 0.609, 'nmi': 0.771, 'stability_ari': 0.687, 'n_clusters_found': 40, 'pca5': 0.75, 'pca1': 0.219, 'two_nn_id': 12.686}
+Levine_13dim_k40 C {'k': 40, 'mean_f1': 0.246, 'ari': 0.298, 'nmi': 0.547, 'stability_ari': 0.389, 'n_clusters_found': 40, 'pca5': 0.618, 'pca1': 0.182, 'two_nn_id': 1.382, 'occupied_phenotypes': 3226, 'possible_phenotypes': 4096, 'phenotypes_covering_95pct': 1480}
+Levine_13dim_k40 C2 {'k': 40, 'mean_f1': 0.318, 'ari': 0.371, 'nmi': 0.606, 'stability_ari': 0.451, 'n_clusters_found': 40, 'pca5': 0.67, 'pca1': 0.312, 'two_nn_id': 1.575, 'occupied_phenotypes': 3226, 'possible_phenotypes': 4096, 'phenotypes_covering_95pct': 1480}
+Levine_13dim_k40 D {'k': 40, 'mean_f1': 0.294, 'ari': 0.321, 'nmi': 0.577, 'stability_ari': 0.404, 'n_clusters_found': 40, 'pca5': 0.604, 'pca1': 0.191, 'two_nn_id': 9.456, 'occupied_phenotypes': 5562, 'possible_phenotypes': 8192, 'phenotypes_covering_95pct': 2640}
+Levine_13dim_k40 done in 54 s
+Samusik_01 A1 {'k': 24, 'mean_f1': 0.624, 'ari': 0.597, 'nmi': 0.776, 'stability_ari': 0.725, 'n_clusters_found': 24, 'pca5': 0.686, 'pca1': 0.373, 'two_nn_id': 22.924}
+Samusik_01 A2 {'k': 24, 'mean_f1': 0.542, 'ari': 0.556, 'nmi': 0.731, 'stability_ari': 0.776, 'n_clusters_found': 24, 'pca5': 0.446, 'pca1': 0.166, 'two_nn_id': 23.009}
+Samusik_01 A3 {'k': 24, 'mean_f1': 0.625, 'ari': 0.606, 'nmi': 0.777, 'stability_ari': 0.752, 'n_clusters_found': 24, 'pca5': 0.505, 'pca1': 0.243, 'two_nn_id': 22.918}
+Samusik_01 C {'k': 24, 'mean_f1': 0.418, 'ari': 0.411, 'nmi': 0.596, 'stability_ari': 0.577, 'n_clusters_found': 24, 'pca5': 0.382, 'pca1': 0.162, 'two_nn_id': 13.737, 'occupied_phenotypes': 65172, 'possible_phenotypes': 268435456, 'phenotypes_covering_95pct': 60829}
+Samusik_01 C2 {'k': 24, 'mean_f1': 0.295, 'ari': 0.359, 'nmi': 0.539, 'stability_ari': 0.66, 'n_clusters_found': 24, 'pca5': 0.499, 'pca1': 0.193, 'two_nn_id': 20.474, 'occupied_phenotypes': 65172, 'possible_phenotypes': 268435456, 'phenotypes_covering_95pct': 60829}
+Samusik_01 D {'k': 24, 'mean_f1': 0.473, 'ari': 0.472, 'nmi': 0.626, 'stability_ari': 0.582, 'n_clusters_found': 24, 'pca5': 0.365, 'pca1': 0.17, 'two_nn_id': 20.221, 'occupied_phenotypes': 82338, 'possible_phenotypes': 549755813888, 'phenotypes_covering_95pct': 77995}
+Samusik_01 done in 116 s
+Samusik_01_k40 A1 {'k': 40, 'mean_f1': 0.697, 'ari': 0.847, 'nmi': 0.829, 'stability_ari': 0.749, 'n_clusters_found': 40, 'pca5': 0.686, 'pca1': 0.373, 'two_nn_id': 22.626}
+Samusik_01_k40 A2 {'k': 40, 'mean_f1': 0.595, 'ari': 0.48, 'nmi': 0.66, 'stability_ari': 0.711, 'n_clusters_found': 40, 'pca5': 0.447, 'pca1': 0.165, 'two_nn_id': 23.384}
+Samusik_01_k40 A3 {'k': 40, 'mean_f1': 0.657, 'ari': 0.605, 'nmi': 0.758, 'stability_ari': 0.666, 'n_clusters_found': 40, 'pca5': 0.506, 'pca1': 0.244, 'two_nn_id': 23.175}
+Samusik_01_k40 C {'k': 40, 'mean_f1': 0.476, 'ari': 0.313, 'nmi': 0.562, 'stability_ari': 0.451, 'n_clusters_found': 40, 'pca5': 0.384, 'pca1': 0.161, 'two_nn_id': 13.325, 'occupied_phenotypes': 65032, 'possible_phenotypes': 268435456, 'phenotypes_covering_95pct': 60689}
+Samusik_01_k40 C2 {'k': 40, 'mean_f1': 0.383, 'ari': 0.377, 'nmi': 0.543, 'stability_ari': 0.547, 'n_clusters_found': 40, 'pca5': 0.499, 'pca1': 0.193, 'two_nn_id': 20.898, 'occupied_phenotypes': 65032, 'possible_phenotypes': 268435456, 'phenotypes_covering_95pct': 60689}
+Samusik_01_k40 D {'k': 40, 'mean_f1': 0.48, 'ari': 0.295, 'nmi': 0.583, 'stability_ari': 0.443, 'n_clusters_found': 40, 'pca5': 0.365, 'pca1': 0.169, 'two_nn_id': 20.026, 'occupied_phenotypes': 82394, 'possible_phenotypes': 549755813888, 'phenotypes_covering_95pct': 78051}
+Samusik_01_k40 done in 116 s

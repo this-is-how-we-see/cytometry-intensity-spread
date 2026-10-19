@@ -1,0 +1,6 @@
+HIPC_tcell_k30 A1 {'k': 30, 'mean_f1': 0.709, 'ari': 0.743, 'nmi': 0.758, 'stability_ari': 0.754, 'n_clusters_found': 30, 'pca5': 0.919, 'pca1': 0.329, 'two_nn_id': 8.572}
+HIPC_tcell_k30 A2 {'k': 30, 'mean_f1': 0.669, 'ari': 0.779, 'nmi': 0.767, 'stability_ari': 0.743, 'n_clusters_found': 30, 'pca5': 0.913, 'pca1': 0.315, 'two_nn_id': 8.69}
+HIPC_tcell_k30 A3 {'k': 30, 'mean_f1': 0.74, 'ari': 0.761, 'nmi': 0.766, 'stability_ari': 0.773, 'n_clusters_found': 30, 'pca5': 0.917, 'pca1': 0.32, 'two_nn_id': 8.828}
+HIPC_tcell_k30 C2 {'k': 30, 'mean_f1': 0.592, 'ari': 0.569, 'nmi': 0.623, 'stability_ari': 0.665, 'n_clusters_found': 30, 'pca5': 0.946, 'pca1': 0.526, 'two_nn_id': 2.667, 'occupied_phenotypes': 32, 'possible_phenotypes': 32, 'phenotypes_covering_95pct': 18}
+HIPC_tcell_k30 D {'k': 30, 'mean_f1': 0.55, 'ari': 0.593, 'nmi': 0.652, 'stability_ari': 0.742, 'n_clusters_found': 30, 'pca5': 0.908, 'pca1': 0.306, 'two_nn_id': 9.188, 'occupied_phenotypes': 128, 'possible_phenotypes': 128, 'phenotypes_covering_95pct': 45}
+HIPC_tcell_k30 done in 163 s

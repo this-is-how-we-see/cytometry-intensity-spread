@@ -1,0 +1,4 @@
+Levine_32dim D_gate_clean {'k': 14, 'mean_f1': 0.473, 'ari': 0.784, 'nmi': 0.81, 'stability_ari': 0.724, 'n_clusters_found': 14, 'pca5': 0.788, 'pca1': 0.339, 'two_nn_id': 15.636, 'occupied_phenotypes': 3286, 'possible_phenotypes': 32768, 'phenotypes_covering_95pct': 371}
+Levine_32dim done in 17 s
+Levine_32dim_k40 D_gate_clean {'k': 40, 'mean_f1': 0.676, 'ari': 0.739, 'nmi': 0.792, 'stability_ari': 0.676, 'n_clusters_found': 40, 'pca5': 0.785, 'pca1': 0.338, 'two_nn_id': 15.352, 'occupied_phenotypes': 3286, 'possible_phenotypes': 32768, 'phenotypes_covering_95pct': 371}
+Levine_32dim_k40 done in 16 s

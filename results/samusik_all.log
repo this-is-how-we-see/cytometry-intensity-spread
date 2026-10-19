@@ -1,0 +1,12 @@
+Samusik_all A1 {'k': 24, 'mean_f1': 0.577, 'ari': 0.643, 'nmi': 0.782, 'stability_ari': 0.719, 'n_clusters_found': 24, 'pca5': 0.679, 'pca1': 0.372, 'two_nn_id': 22.194}
+Samusik_all A2 {'k': 24, 'mean_f1': 0.59, 'ari': 0.658, 'nmi': 0.772, 'stability_ari': 0.797, 'n_clusters_found': 24, 'pca5': 0.448, 'pca1': 0.166, 'two_nn_id': 23.06}
+Samusik_all A3 {'k': 24, 'mean_f1': 0.624, 'ari': 0.695, 'nmi': 0.813, 'stability_ari': 0.75, 'n_clusters_found': 24, 'pca5': 0.515, 'pca1': 0.252, 'two_nn_id': 22.357}
+Samusik_all C2 {'k': 24, 'mean_f1': 0.281, 'ari': 0.327, 'nmi': 0.497, 'stability_ari': 0.672, 'n_clusters_found': 24, 'pca5': 0.499, 'pca1': 0.19, 'two_nn_id': 20.111, 'occupied_phenotypes': 450229, 'possible_phenotypes': 268435456, 'phenotypes_covering_95pct': 408147}
+Samusik_all D {'k': 24, 'mean_f1': 0.471, 'ari': 0.619, 'nmi': 0.669, 'stability_ari': 0.69, 'n_clusters_found': 24, 'pca5': 0.379, 'pca1': 0.183, 'two_nn_id': 20.724, 'occupied_phenotypes': 732207, 'possible_phenotypes': 549755813888, 'phenotypes_covering_95pct': 690125}
+Samusik_all done in 298 s
+Samusik_all_k40 A1 {'k': 40, 'mean_f1': 0.668, 'ari': 0.88, 'nmi': 0.846, 'stability_ari': 0.772, 'n_clusters_found': 40, 'pca5': 0.681, 'pca1': 0.374, 'two_nn_id': 21.791}
+Samusik_all_k40 A2 {'k': 40, 'mean_f1': 0.622, 'ari': 0.635, 'nmi': 0.749, 'stability_ari': 0.745, 'n_clusters_found': 40, 'pca5': 0.448, 'pca1': 0.166, 'two_nn_id': 22.261}
+Samusik_all_k40 A3 {'k': 40, 'mean_f1': 0.675, 'ari': 0.777, 'nmi': 0.812, 'stability_ari': 0.695, 'n_clusters_found': 40, 'pca5': 0.515, 'pca1': 0.25, 'two_nn_id': 22.988}
+Samusik_all_k40 C2 {'k': 40, 'mean_f1': 0.386, 'ari': 0.349, 'nmi': 0.533, 'stability_ari': 0.578, 'n_clusters_found': 40, 'pca5': 0.499, 'pca1': 0.19, 'two_nn_id': 20.574, 'occupied_phenotypes': 450047, 'possible_phenotypes': 268435456, 'phenotypes_covering_95pct': 407965}
+Samusik_all_k40 D {'k': 40, 'mean_f1': 0.551, 'ari': 0.317, 'nmi': 0.598, 'stability_ari': 0.446, 'n_clusters_found': 40, 'pca5': 0.377, 'pca1': 0.183, 'two_nn_id': 20.312, 'occupied_phenotypes': 732570, 'possible_phenotypes': 549755813888, 'phenotypes_covering_95pct': 690488}
+Samusik_all_k40 done in 305 s

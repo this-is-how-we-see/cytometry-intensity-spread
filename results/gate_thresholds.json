@@ -1,0 +1,750 @@
+{
+ "meta": {
+  "dataset": "Levine_32dim",
+  "transform": "arcsinh(x / 5)",
+  "objective": "balanced accuracy on the labeled cells of the named populations",
+  "grid": "2000 points between the 0.1st and 99.9th percentile",
+  "labeled_cells": 104184,
+  "n_gate": 22,
+  "n_fallback": 10
+ },
+ "markers": {
+  "CD45RA": {
+   "mixture_threshold": 0.8271,
+   "note": "T cells left out: naive and memory mix",
+   "positive_populations": [
+    "Mature_B_cells",
+    "CD16-_NK_cells",
+    "CD16+_NK_cells"
+   ],
+   "negative_populations": [
+    "CD34+CD38lo_HSCs",
+    "CD34+CD38+CD123-_HSPCs",
+    "Basophils",
+    "Pro_B_cells"
+   ],
+   "method": "gate",
+   "threshold": 0.6662,
+   "balanced_accuracy": 0.801,
+   "tpr": 0.7581,
+   "tnr": 0.8439,
+   "n_positive_cells": 22673,
+   "n_negative_cells": 5931,
+   "mixture_balanced_accuracy": 0.7906,
+   "mixture_tpr": 0.6774,
+   "mixture_tnr": 0.9037,
+   "fraction_positive_all_cells": 0.4285,
+   "fraction_positive_mixture": 0.3417
+  },
+  "CD133": {
+   "mixture_threshold": 0.0161,
+   "note": "stain is dim on HSCs in this file, median arcsinh 0.2",
+   "positive_populations": [
+    "CD34+CD38lo_HSCs",
+    "CD34+CD38+CD123-_HSPCs"
+   ],
+   "negative_populations": [
+    "CD4_T_cells",
+    "CD8_T_cells",
+    "Mature_B_cells",
+    "CD16-_NK_cells",
+    "CD16+_NK_cells",
+    "Monocytes"
+   ],
+   "method": "gate",
+   "threshold": 0.0485,
+   "balanced_accuracy": 0.5609,
+   "tpr": 0.5918,
+   "tnr": 0.5301,
+   "n_positive_cells": 4211,
+   "n_negative_cells": 90246,
+   "mixture_balanced_accuracy": 0.5588,
+   "mixture_tpr": 0.6246,
+   "mixture_tnr": 0.4931,
+   "fraction_positive_all_cells": 0.4731,
+   "fraction_positive_mixture": 0.5096
+  },
+  "CD19": {
+   "mixture_threshold": 0.1439,
+   "note": "",
+   "positive_populations": [
+    "Mature_B_cells",
+    "Pre_B_cells",
+    "Pro_B_cells",
+    "Plasma_B_cells"
+   ],
+   "negative_populations": [
+    "CD4_T_cells",
+    "CD8_T_cells",
+    "CD16-_NK_cells",
+    "CD16+_NK_cells",
+    "Monocytes",
+    "CD34+CD38lo_HSCs",
+    "Basophils",
+    "pDCs"
+   ],
+   "method": "gate",
+   "threshold": 0.9134,
+   "balanced_accuracy": 0.9934,
+   "tpr": 0.9942,
+   "tnr": 0.9926,
+   "n_positive_cells": 23498,
+   "n_negative_cells": 77087,
+   "mixture_balanced_accuracy": 0.8684,
+   "mixture_tpr": 1.0,
+   "mixture_tnr": 0.7368,
+   "fraction_positive_all_cells": 0.2046,
+   "fraction_positive_mixture": 0.4217
+  },
+  "CD22": {
+   "mixture_threshold": 0.1415,
+   "note": "pre B and pro B left out: dim",
+   "positive_populations": [
+    "Mature_B_cells"
+   ],
+   "negative_populations": [
+    "CD4_T_cells",
+    "CD8_T_cells",
+    "CD16-_NK_cells",
+    "CD16+_NK_cells",
+    "Monocytes",
+    "CD34+CD38lo_HSCs",
+    "pDCs"
+   ],
+   "method": "gate",
+   "threshold": 0.6393,
+   "balanced_accuracy": 0.9502,
+   "tpr": 0.9402,
+   "tnr": 0.9601,
+   "n_positive_cells": 16520,
+   "n_negative_cells": 75880,
+   "mixture_balanced_accuracy": 0.8638,
+   "mixture_tpr": 0.9874,
+   "mixture_tnr": 0.7403,
+   "fraction_positive_all_cells": 0.1815,
+   "fraction_positive_mixture": 0.3909
+  },
+  "CD11b": {
+   "mixture_threshold": 0.5557,
+   "note": "NK cells and basophils left out: dim",
+   "positive_populations": [
+    "Monocytes"
+   ],
+   "negative_populations": [
+    "CD4_T_cells",
+    "CD8_T_cells",
+    "Mature_B_cells",
+    "Pre_B_cells",
+    "Pro_B_cells",
+    "CD34+CD38lo_HSCs",
+    "CD34+CD38+CD123-_HSPCs",
+    "CD34+CD38+CD123+_HSPCs",
+    "pDCs"
+   ],
+   "method": "gate",
+   "threshold": 1.0095,
+   "balanced_accuracy": 0.9334,
+   "tpr": 0.8998,
+   "tnr": 0.9671,
+   "n_positive_cells": 21099,
+   "n_negative_cells": 75395,
+   "mixture_balanced_accuracy": 0.9025,
+   "mixture_tpr": 0.949,
+   "mixture_tnr": 0.8559,
+   "fraction_positive_all_cells": 0.2352,
+   "fraction_positive_mixture": 0.3493
+  },
+  "CD4": {
+   "mixture_threshold": 0.0202,
+   "note": "monocytes and pDCs left out: intermediate, the hypothesis 3 case",
+   "positive_populations": [
+    "CD4_T_cells"
+   ],
+   "negative_populations": [
+    "CD8_T_cells",
+    "Mature_B_cells",
+    "CD16-_NK_cells",
+    "CD16+_NK_cells",
+    "CD34+CD38lo_HSCs",
+    "Pre_B_cells"
+   ],
+   "method": "gate",
+   "threshold": 0.354,
+   "balanced_accuracy": 0.9127,
+   "tpr": 0.948,
+   "tnr": 0.8773,
+   "n_positive_cells": 26366,
+   "n_negative_cells": 49832,
+   "mixture_balanced_accuracy": 0.7721,
+   "mixture_tpr": 1.0,
+   "mixture_tnr": 0.5441,
+   "fraction_positive_all_cells": 0.3468,
+   "fraction_positive_mixture": 0.6412
+  },
+  "CD8": {
+   "mixture_threshold": 0.2464,
+   "note": "NK cells left out: CD8 dim",
+   "positive_populations": [
+    "CD8_T_cells"
+   ],
+   "negative_populations": [
+    "CD4_T_cells",
+    "Mature_B_cells",
+    "Monocytes",
+    "CD34+CD38lo_HSCs",
+    "Pre_B_cells",
+    "pDCs"
+   ],
+   "method": "gate",
+   "threshold": 1.0147,
+   "balanced_accuracy": 0.9986,
+   "tpr": 0.9986,
+   "tnr": 0.9987,
+   "n_positive_cells": 20108,
+   "n_negative_cells": 72274,
+   "mixture_balanced_accuracy": 0.9162,
+   "mixture_tpr": 1.0,
+   "mixture_tnr": 0.8324,
+   "fraction_positive_all_cells": 0.19,
+   "fraction_positive_mixture": 0.339
+  },
+  "CD34": {
+   "mixture_threshold": 0.5961,
+   "note": "",
+   "positive_populations": [
+    "CD34+CD38lo_HSCs",
+    "CD34+CD38+CD123-_HSPCs",
+    "CD34+CD38+CD123+_HSPCs",
+    "Pro_B_cells"
+   ],
+   "negative_populations": [
+    "CD4_T_cells",
+    "CD8_T_cells",
+    "Mature_B_cells",
+    "CD16-_NK_cells",
+    "CD16+_NK_cells",
+    "Monocytes",
+    "Basophils",
+    "pDCs",
+    "Plasma_B_cells",
+    "Pre_B_cells"
+   ],
+   "method": "gate",
+   "threshold": 1.328,
+   "balanced_accuracy": 0.9961,
+   "tpr": 0.9966,
+   "tnr": 0.9955,
+   "n_positive_cells": 5028,
+   "n_negative_cells": 99156,
+   "mixture_balanced_accuracy": 0.9477,
+   "mixture_tpr": 1.0,
+   "mixture_tnr": 0.8954,
+   "fraction_positive_all_cells": 0.054,
+   "fraction_positive_mixture": 0.1579
+  },
+  "Flt3": {
+   "mixture_threshold": 0.4737,
+   "note": "stain is dim, median arcsinh 0.3 on the positive populations",
+   "positive_populations": [
+    "CD34+CD38+CD123+_HSPCs",
+    "pDCs"
+   ],
+   "negative_populations": [
+    "CD4_T_cells",
+    "CD8_T_cells",
+    "CD16-_NK_cells",
+    "CD16+_NK_cells",
+    "Mature_B_cells"
+   ],
+   "method": "gate",
+   "threshold": 0.1233,
+   "balanced_accuracy": 0.5683,
+   "tpr": 0.6226,
+   "tnr": 0.5141,
+   "n_positive_cells": 1542,
+   "n_negative_cells": 69147,
+   "mixture_balanced_accuracy": 0.5333,
+   "mixture_tpr": 0.2283,
+   "mixture_tnr": 0.8384,
+   "fraction_positive_all_cells": 0.4806,
+   "fraction_positive_mixture": 0.1631
+  },
+  "CD20": {
+   "mixture_threshold": 0.1278,
+   "note": "pre B left out: dim",
+   "positive_populations": [
+    "Mature_B_cells"
+   ],
+   "negative_populations": [
+    "CD4_T_cells",
+    "CD8_T_cells",
+    "CD16-_NK_cells",
+    "CD16+_NK_cells",
+    "Monocytes",
+    "CD34+CD38lo_HSCs",
+    "Pro_B_cells",
+    "Plasma_B_cells"
+   ],
+   "method": "gate",
+   "threshold": 0.4057,
+   "balanced_accuracy": 0.9044,
+   "tpr": 0.8922,
+   "tnr": 0.9167,
+   "n_positive_cells": 16520,
+   "n_negative_cells": 75485,
+   "mixture_balanced_accuracy": 0.8512,
+   "mixture_tpr": 0.9602,
+   "mixture_tnr": 0.7422,
+   "fraction_positive_all_cells": 0.2198,
+   "fraction_positive_mixture": 0.3721
+  },
+  "CXCR4": {
+   "mixture_threshold": 0.842,
+   "note": "continuous marker, no population in the label set defines it",
+   "positive_populations": [],
+   "negative_populations": [],
+   "method": "mixture_fallback",
+   "threshold": 0.842,
+   "fraction_positive_all_cells": 0.408,
+   "fraction_positive_mixture": 0.408
+  },
+  "CD235ab": {
+   "mixture_threshold": 0.794,
+   "note": "erythroid marker, no erythroid population in the label set",
+   "positive_populations": [],
+   "negative_populations": [],
+   "method": "mixture_fallback",
+   "threshold": 0.794,
+   "fraction_positive_all_cells": 0.3241,
+   "fraction_positive_mixture": 0.3241
+  },
+  "CD45": {
+   "mixture_threshold": 4.9243,
+   "note": "every labeled population is positive",
+   "positive_populations": [],
+   "negative_populations": [],
+   "method": "mixture_fallback",
+   "threshold": 4.9243,
+   "fraction_positive_all_cells": 0.7954,
+   "fraction_positive_mixture": 0.7954
+  },
+  "CD123": {
+   "mixture_threshold": 0.3528,
+   "note": "monocytes left out: dim",
+   "positive_populations": [
+    "pDCs",
+    "Basophils",
+    "CD34+CD38+CD123+_HSPCs"
+   ],
+   "negative_populations": [
+    "CD4_T_cells",
+    "CD8_T_cells",
+    "Mature_B_cells",
+    "CD16-_NK_cells",
+    "CD16+_NK_cells",
+    "CD34+CD38+CD123-_HSPCs",
+    "CD34+CD38lo_HSCs"
+   ],
+   "method": "gate",
+   "threshold": 2.0687,
+   "balanced_accuracy": 0.9996,
+   "tpr": 1.0,
+   "tnr": 0.9993,
+   "n_positive_cells": 2749,
+   "n_negative_cells": 73358,
+   "mixture_balanced_accuracy": 0.9311,
+   "mixture_tpr": 1.0,
+   "mixture_tnr": 0.8621,
+   "fraction_positive_all_cells": 0.0346,
+   "fraction_positive_mixture": 0.2797
+  },
+  "CD321": {
+   "mixture_threshold": 2.0374,
+   "note": "continuous marker, no population in the label set defines it",
+   "positive_populations": [],
+   "negative_populations": [],
+   "method": "mixture_fallback",
+   "threshold": 2.0374,
+   "fraction_positive_all_cells": 0.4387,
+   "fraction_positive_mixture": 0.4387
+  },
+  "CD14": {
+   "mixture_threshold": 0.0226,
+   "note": "stain is dim on monocytes in this file, median arcsinh 0.1",
+   "positive_populations": [
+    "Monocytes"
+   ],
+   "negative_populations": [
+    "CD4_T_cells",
+    "CD8_T_cells",
+    "Mature_B_cells",
+    "CD16-_NK_cells",
+    "CD16+_NK_cells",
+    "CD34+CD38lo_HSCs",
+    "pDCs",
+    "Basophils"
+   ],
+   "method": "gate",
+   "threshold": 0.0482,
+   "balanced_accuracy": 0.6867,
+   "tpr": 0.6297,
+   "tnr": 0.7437,
+   "n_positive_cells": 21099,
+   "n_negative_cells": 72508,
+   "mixture_balanced_accuracy": 0.6849,
+   "mixture_tpr": 0.677,
+   "mixture_tnr": 0.6928,
+   "fraction_positive_all_cells": 0.3423,
+   "fraction_positive_mixture": 0.3919
+  },
+  "CD33": {
+   "mixture_threshold": 0.1555,
+   "note": "basophils left out: median arcsinh 0.1 in this file",
+   "positive_populations": [
+    "Monocytes"
+   ],
+   "negative_populations": [
+    "CD4_T_cells",
+    "CD8_T_cells",
+    "Mature_B_cells",
+    "CD16-_NK_cells",
+    "CD16+_NK_cells",
+    "Plasma_B_cells"
+   ],
+   "method": "gate",
+   "threshold": 0.2244,
+   "balanced_accuracy": 0.8411,
+   "tpr": 0.8113,
+   "tnr": 0.8709,
+   "n_positive_cells": 21099,
+   "n_negative_cells": 69477,
+   "mixture_balanced_accuracy": 0.8381,
+   "mixture_tpr": 0.8569,
+   "mixture_tnr": 0.8192,
+   "fraction_positive_all_cells": 0.3156,
+   "fraction_positive_mixture": 0.3701
+  },
+  "CD47": {
+   "mixture_threshold": 2.3636,
+   "note": "continuous marker, no population in the label set defines it",
+   "positive_populations": [],
+   "negative_populations": [],
+   "method": "mixture_fallback",
+   "threshold": 2.3636,
+   "fraction_positive_all_cells": 0.6513,
+   "fraction_positive_mixture": 0.6513
+  },
+  "CD11c": {
+   "mixture_threshold": 0.4917,
+   "note": "",
+   "positive_populations": [
+    "Monocytes"
+   ],
+   "negative_populations": [
+    "CD4_T_cells",
+    "CD8_T_cells",
+    "Mature_B_cells",
+    "Pre_B_cells",
+    "Pro_B_cells",
+    "CD34+CD38lo_HSCs",
+    "pDCs"
+   ],
+   "method": "gate",
+   "threshold": 1.038,
+   "balanced_accuracy": 0.994,
+   "tpr": 0.9965,
+   "tnr": 0.9914,
+   "n_positive_cells": 21099,
+   "n_negative_cells": 71796,
+   "mixture_balanced_accuracy": 0.9388,
+   "mixture_tpr": 1.0,
+   "mixture_tnr": 0.8776,
+   "fraction_positive_all_cells": 0.2259,
+   "fraction_positive_mixture": 0.3461
+  },
+  "CD7": {
+   "mixture_threshold": 0.0888,
+   "note": "T cells left out: CD7 dim in this file",
+   "positive_populations": [
+    "CD16-_NK_cells",
+    "CD16+_NK_cells"
+   ],
+   "negative_populations": [
+    "Mature_B_cells",
+    "Monocytes",
+    "Basophils",
+    "pDCs",
+    "CD34+CD38lo_HSCs",
+    "Plasma_B_cells"
+   ],
+   "method": "gate",
+   "threshold": 1.3485,
+   "balanced_accuracy": 0.9998,
+   "tpr": 0.9997,
+   "tnr": 0.9999,
+   "n_positive_cells": 6153,
+   "n_negative_cells": 41310,
+   "mixture_balanced_accuracy": 0.9102,
+   "mixture_tpr": 1.0,
+   "mixture_tnr": 0.8204,
+   "fraction_positive_all_cells": 0.2528,
+   "fraction_positive_mixture": 0.5316
+  },
+  "CD15": {
+   "mixture_threshold": 0.0191,
+   "note": "granulocyte marker, no granulocyte population in the label set",
+   "positive_populations": [],
+   "negative_populations": [],
+   "method": "mixture_fallback",
+   "threshold": 0.0191,
+   "fraction_positive_all_cells": 0.6176,
+   "fraction_positive_mixture": 0.6176
+  },
+  "CD16": {
+   "mixture_threshold": 0.2372,
+   "note": "monocytes left out: classical and non-classical mix",
+   "positive_populations": [
+    "CD16+_NK_cells"
+   ],
+   "negative_populations": [
+    "CD16-_NK_cells",
+    "CD4_T_cells",
+    "CD8_T_cells",
+    "Mature_B_cells",
+    "CD34+CD38lo_HSCs",
+    "pDCs",
+    "Basophils"
+   ],
+   "method": "gate",
+   "threshold": 1.0911,
+   "balanced_accuracy": 0.9992,
+   "tpr": 1.0,
+   "tnr": 0.9984,
+   "n_positive_cells": 2248,
+   "n_negative_cells": 70260,
+   "mixture_balanced_accuracy": 0.9282,
+   "mixture_tpr": 1.0,
+   "mixture_tnr": 0.8565,
+   "fraction_positive_all_cells": 0.0262,
+   "fraction_positive_mixture": 0.1847
+  },
+  "CD44": {
+   "mixture_threshold": 3.3796,
+   "note": "continuous marker, no population in the label set defines it",
+   "positive_populations": [],
+   "negative_populations": [],
+   "method": "mixture_fallback",
+   "threshold": 3.3796,
+   "fraction_positive_all_cells": 0.6783,
+   "fraction_positive_mixture": 0.6783
+  },
+  "CD38": {
+   "mixture_threshold": 1.48,
+   "note": "the label set defines CD38 only through the CD38+ against CD38lo split of the CD34+ cells",
+   "positive_populations": [
+    "CD34+CD38+CD123-_HSPCs",
+    "CD34+CD38+CD123+_HSPCs",
+    "Plasma_B_cells",
+    "Pre_B_cells",
+    "Pro_B_cells"
+   ],
+   "negative_populations": [
+    "CD34+CD38lo_HSCs"
+   ],
+   "method": "gate",
+   "threshold": 1.9193,
+   "balanced_accuracy": 1.0,
+   "tpr": 1.0,
+   "tnr": 1.0,
+   "n_positive_cells": 10577,
+   "n_negative_cells": 916,
+   "mixture_balanced_accuracy": 0.8537,
+   "mixture_tpr": 1.0,
+   "mixture_tnr": 0.7074,
+   "fraction_positive_all_cells": 0.2938,
+   "fraction_positive_mixture": 0.3802
+  },
+  "CD13": {
+   "mixture_threshold": 0.3268,
+   "note": "stain is dim on monocytes, median arcsinh 0.6",
+   "positive_populations": [
+    "Monocytes"
+   ],
+   "negative_populations": [
+    "CD4_T_cells",
+    "CD8_T_cells",
+    "Mature_B_cells",
+    "CD16-_NK_cells",
+    "CD16+_NK_cells"
+   ],
+   "method": "gate",
+   "threshold": 0.3199,
+   "balanced_accuracy": 0.7512,
+   "tpr": 0.7046,
+   "tnr": 0.7978,
+   "n_positive_cells": 21099,
+   "n_negative_cells": 69147,
+   "mixture_balanced_accuracy": 0.7509,
+   "mixture_tpr": 0.6992,
+   "mixture_tnr": 0.8026,
+   "fraction_positive_all_cells": 0.3801,
+   "fraction_positive_mixture": 0.375
+  },
+  "CD3": {
+   "mixture_threshold": 1.5758,
+   "note": "",
+   "positive_populations": [
+    "CD4_T_cells",
+    "CD8_T_cells"
+   ],
+   "negative_populations": [
+    "CD16-_NK_cells",
+    "CD16+_NK_cells",
+    "Mature_B_cells",
+    "Pre_B_cells",
+    "Pro_B_cells",
+    "Plasma_B_cells",
+    "Monocytes",
+    "Basophils",
+    "pDCs",
+    "CD34+CD38lo_HSCs",
+    "CD34+CD38+CD123-_HSPCs",
+    "CD34+CD38+CD123+_HSPCs"
+   ],
+   "method": "gate",
+   "threshold": 2.2189,
+   "balanced_accuracy": 0.9999,
+   "tpr": 1.0,
+   "tnr": 0.9998,
+   "n_positive_cells": 46474,
+   "n_negative_cells": 57710,
+   "mixture_balanced_accuracy": 0.9985,
+   "mixture_tpr": 1.0,
+   "mixture_tnr": 0.9971,
+   "fraction_positive_all_cells": 0.4329,
+   "fraction_positive_mixture": 0.4366
+  },
+  "CD61": {
+   "mixture_threshold": 0.3249,
+   "note": "platelet marker, no megakaryocyte population in the label set",
+   "positive_populations": [],
+   "negative_populations": [],
+   "method": "mixture_fallback",
+   "threshold": 0.3249,
+   "fraction_positive_all_cells": 0.2977,
+   "fraction_positive_mixture": 0.2977
+  },
+  "CD117": {
+   "mixture_threshold": 0.0248,
+   "note": "",
+   "positive_populations": [
+    "CD34+CD38lo_HSCs",
+    "CD34+CD38+CD123-_HSPCs"
+   ],
+   "negative_populations": [
+    "CD4_T_cells",
+    "CD8_T_cells",
+    "Mature_B_cells",
+    "CD16-_NK_cells",
+    "CD16+_NK_cells",
+    "Monocytes",
+    "Pre_B_cells",
+    "Plasma_B_cells"
+   ],
+   "method": "gate",
+   "threshold": 0.2844,
+   "balanced_accuracy": 0.8168,
+   "tpr": 0.7611,
+   "tnr": 0.8725,
+   "n_positive_cells": 4211,
+   "n_negative_cells": 96711,
+   "mixture_balanced_accuracy": 0.7299,
+   "mixture_tpr": 0.8931,
+   "mixture_tnr": 0.5668,
+   "fraction_positive_all_cells": 0.1564,
+   "fraction_positive_mixture": 0.4525
+  },
+  "CD49d": {
+   "mixture_threshold": 0.8719,
+   "note": "continuous marker, no population in the label set defines it",
+   "positive_populations": [],
+   "negative_populations": [],
+   "method": "mixture_fallback",
+   "threshold": 0.8719,
+   "fraction_positive_all_cells": 0.3957,
+   "fraction_positive_mixture": 0.3958
+  },
+  "HLA-DR": {
+   "mixture_threshold": 0.4698,
+   "note": "HSCs left out: intermediate",
+   "positive_populations": [
+    "Mature_B_cells",
+    "Pre_B_cells",
+    "Pro_B_cells",
+    "Monocytes",
+    "pDCs",
+    "CD34+CD38+CD123-_HSPCs",
+    "CD34+CD38+CD123+_HSPCs"
+   ],
+   "negative_populations": [
+    "CD4_T_cells",
+    "CD8_T_cells",
+    "CD16-_NK_cells",
+    "CD16+_NK_cells",
+    "Basophils",
+    "Plasma_B_cells"
+   ],
+   "method": "gate",
+   "threshold": 0.5773,
+   "balanced_accuracy": 0.9772,
+   "tpr": 0.962,
+   "tnr": 0.9923,
+   "n_positive_cells": 49104,
+   "n_negative_cells": 54164,
+   "mixture_balanced_accuracy": 0.963,
+   "mixture_tpr": 0.9711,
+   "mixture_tnr": 0.9549,
+   "fraction_positive_all_cells": 0.5051,
+   "fraction_positive_mixture": 0.5303
+  },
+  "CD64": {
+   "mixture_threshold": 0.3481,
+   "note": "",
+   "positive_populations": [
+    "Monocytes"
+   ],
+   "negative_populations": [
+    "CD4_T_cells",
+    "CD8_T_cells",
+    "Mature_B_cells",
+    "CD16-_NK_cells",
+    "CD16+_NK_cells",
+    "pDCs",
+    "Basophils",
+    "CD34+CD38lo_HSCs"
+   ],
+   "method": "gate",
+   "threshold": 0.7506,
+   "balanced_accuracy": 0.9938,
+   "tpr": 0.9998,
+   "tnr": 0.9878,
+   "n_positive_cells": 21099,
+   "n_negative_cells": 72508,
+   "mixture_balanced_accuracy": 0.9451,
+   "mixture_tpr": 1.0,
+   "mixture_tnr": 0.8901,
+   "fraction_positive_all_cells": 0.2286,
+   "fraction_positive_mixture": 0.3353
+  },
+  "CD41": {
+   "mixture_threshold": 0.1266,
+   "note": "platelet marker, no megakaryocyte population in the label set",
+   "positive_populations": [],
+   "negative_populations": [],
+   "method": "mixture_fallback",
+   "threshold": 0.1266,
+   "fraction_positive_all_cells": 0.3887,
+   "fraction_positive_mixture": 0.3886
+  }
+ }
+}

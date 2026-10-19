@@ -1,0 +1,116 @@
+[
+ {
+  "name": "Levine_32dim.fcs",
+  "link": "/experiments/817/fcs_files/102552/download",
+  "md5_prefix": "c8b085f357",
+  "size": "41.5 MB"
+ },
+ {
+  "name": "Levine_32dim_notransform.fcs",
+  "link": "/experiments/817/fcs_files/102553/download",
+  "md5_prefix": "a9b37749bd",
+  "size": "41.5 MB"
+ },
+ {
+  "name": "Levine_13dim.fcs",
+  "link": "/experiments/817/fcs_files/102554/download",
+  "md5_prefix": "abeca9da0f",
+  "size": "8.9 MB"
+ },
+ {
+  "name": "Levine_13dim_notransform.fcs",
+  "link": "/experiments/817/fcs_files/102555/download",
+  "md5_prefix": "2ac2b54de4",
+  "size": "8.9 MB"
+ },
+ {
+  "name": "Samusik_01.fcs",
+  "link": "/experiments/817/fcs_files/102556/download",
+  "md5_prefix": "d4a563b687",
+  "size": "17.9 MB"
+ },
+ {
+  "name": "Samusik_01_notransform.fcs",
+  "link": "/experiments/817/fcs_files/102557/download",
+  "md5_prefix": "4e5c075093",
+  "size": "17.9 MB"
+ },
+ {
+  "name": "Samusik_all.fcs",
+  "link": "/experiments/817/fcs_files/102558/download",
+  "md5_prefix": "eea87c4ffe",
+  "size": "173.4 MB"
+ },
+ {
+  "name": "Samusik_all_notransform.fcs",
+  "link": "/experiments/817/fcs_files/102559/download",
+  "md5_prefix": "b1f2723059",
+  "size": "173.4 MB"
+ },
+ {
+  "name": "Nilsson_rare.fcs",
+  "link": "/experiments/817/fcs_files/102560/download",
+  "md5_prefix": "a88aa2b815",
+  "size": "3.4 MB"
+ },
+ {
+  "name": "Nilsson_rare_notransform.fcs",
+  "link": "/experiments/817/fcs_files/102561/download",
+  "md5_prefix": "0277033967",
+  "size": "3.4 MB"
+ },
+ {
+  "name": "Mosmann_rare.fcs",
+  "link": "/experiments/817/fcs_files/102562/download",
+  "md5_prefix": "eded0a14a4",
+  "size": "34.8 MB"
+ },
+ {
+  "name": "Mosmann_rare_notransform.fcs",
+  "link": "/experiments/817/fcs_files/102563/download",
+  "md5_prefix": "cab9747ca0",
+  "size": "34.8 MB"
+ },
+ {
+  "name": "FlowCAP_ND.fcs",
+  "link": "/experiments/817/fcs_files/102564/download",
+  "md5_prefix": "9f8eafc780",
+  "size": "95 MB"
+ },
+ {
+  "name": "FlowCAP_WNV.fcs",
+  "link": "/experiments/817/fcs_files/102565/download",
+  "md5_prefix": "b24550bfc8",
+  "size": "46.3 MB"
+ },
+ {
+  "name": "population_names_Levine_32dim.txt",
+  "link": null,
+  "md5_prefix": "e4d318661e",
+  "size": "246 Bytes"
+ },
+ {
+  "name": "population_names_Levine_13dim.txt",
+  "link": null,
+  "md5_prefix": "4e520f8241",
+  "size": "487 Bytes"
+ },
+ {
+  "name": "population_names_Samusik.txt",
+  "link": null,
+  "md5_prefix": "acfeb6faa0",
+  "size": "371 Bytes"
+ },
+ {
+  "name": "GatingML_Nilsson_rare.xml",
+  "link": null,
+  "md5_prefix": "75244268c3",
+  "size": "22.6 KB"
+ },
+ {
+  "name": "GatingML_Mosmann_rare.xml",
+  "link": null,
+  "md5_prefix": "2e8826ca05",
+  "size": "13.4 KB"
+ }
+]

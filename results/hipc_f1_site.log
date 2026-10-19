@@ -1,0 +1,42 @@
+HIPC_tcell_Baylor A1 {'k': 12, 'mean_f1': 0.3, 'ari': 0.375, 'nmi': 0.57, 'stability_ari': 0.823, 'n_clusters_found': 12, 'pca5': 0.94, 'pca1': 0.454, 'two_nn_id': 8.643}
+HIPC_tcell_Baylor A2 {'k': 12, 'mean_f1': 0.19, 'ari': 0.32, 'nmi': 0.49, 'stability_ari': 0.787, 'n_clusters_found': 12, 'pca5': 0.939, 'pca1': 0.438, 'two_nn_id': 8.757}
+HIPC_tcell_Baylor A3 {'k': 12, 'mean_f1': 0.399, 'ari': 0.613, 'nmi': 0.685, 'stability_ari': 0.846, 'n_clusters_found': 12, 'pca5': 0.939, 'pca1': 0.458, 'two_nn_id': 8.756}
+HIPC_tcell_Baylor C2 {'k': 12, 'mean_f1': 0.386, 'ari': 0.519, 'nmi': 0.568, 'stability_ari': 0.746, 'n_clusters_found': 12, 'pca5': 0.954, 'pca1': 0.56, 'two_nn_id': 2.736, 'occupied_phenotypes': 32, 'possible_phenotypes': 32, 'phenotypes_covering_95pct': 19}
+HIPC_tcell_Baylor D {'k': 12, 'mean_f1': 0.43, 'ari': 0.562, 'nmi': 0.648, 'stability_ari': 0.759, 'n_clusters_found': 12, 'pca5': 0.919, 'pca1': 0.376, 'two_nn_id': 8.916, 'occupied_phenotypes': 128, 'possible_phenotypes': 128, 'phenotypes_covering_95pct': 49}
+HIPC_tcell_Baylor done in 39 s
+HIPC_tcell_CIMR A1 {'k': 12, 'mean_f1': 0.351, 'ari': 0.485, 'nmi': 0.631, 'stability_ari': 0.759, 'n_clusters_found': 12, 'pca5': 0.921, 'pca1': 0.322, 'two_nn_id': 8.492}
+HIPC_tcell_CIMR A2 {'k': 12, 'mean_f1': 0.427, 'ari': 0.62, 'nmi': 0.725, 'stability_ari': 0.79, 'n_clusters_found': 12, 'pca5': 0.916, 'pca1': 0.327, 'two_nn_id': 8.469}
+HIPC_tcell_CIMR A3 {'k': 12, 'mean_f1': 0.432, 'ari': 0.644, 'nmi': 0.743, 'stability_ari': 0.762, 'n_clusters_found': 12, 'pca5': 0.919, 'pca1': 0.311, 'two_nn_id': 8.638}
+HIPC_tcell_CIMR C2 {'k': 12, 'mean_f1': 0.393, 'ari': 0.556, 'nmi': 0.665, 'stability_ari': 0.65, 'n_clusters_found': 12, 'pca5': 0.948, 'pca1': 0.507, 'two_nn_id': 2.704, 'occupied_phenotypes': 32, 'possible_phenotypes': 32, 'phenotypes_covering_95pct': 19}
+HIPC_tcell_CIMR D {'k': 12, 'mean_f1': 0.182, 'ari': 0.316, 'nmi': 0.49, 'stability_ari': 0.591, 'n_clusters_found': 12, 'pca5': 0.912, 'pca1': 0.287, 'two_nn_id': 8.962, 'occupied_phenotypes': 128, 'possible_phenotypes': 128, 'phenotypes_covering_95pct': 53}
+HIPC_tcell_CIMR done in 37 s
+HIPC_tcell_Miami A1 {'k': 12, 'mean_f1': 0.251, 'ari': 0.334, 'nmi': 0.511, 'stability_ari': 0.677, 'n_clusters_found': 12, 'pca5': 0.944, 'pca1': 0.394, 'two_nn_id': 8.534}
+HIPC_tcell_Miami A2 {'k': 12, 'mean_f1': 0.344, 'ari': 0.433, 'nmi': 0.559, 'stability_ari': 0.629, 'n_clusters_found': 12, 'pca5': 0.922, 'pca1': 0.347, 'two_nn_id': 8.462}
+HIPC_tcell_Miami A3 {'k': 12, 'mean_f1': 0.408, 'ari': 0.601, 'nmi': 0.699, 'stability_ari': 0.733, 'n_clusters_found': 12, 'pca5': 0.93, 'pca1': 0.362, 'two_nn_id': 8.649}
+HIPC_tcell_Miami C2 {'k': 12, 'mean_f1': 0.375, 'ari': 0.423, 'nmi': 0.5, 'stability_ari': 0.673, 'n_clusters_found': 12, 'pca5': 0.946, 'pca1': 0.58, 'two_nn_id': 2.711, 'occupied_phenotypes': 31, 'possible_phenotypes': 32, 'phenotypes_covering_95pct': 13}
+HIPC_tcell_Miami D {'k': 12, 'mean_f1': 0.234, 'ari': 0.306, 'nmi': 0.388, 'stability_ari': 0.586, 'n_clusters_found': 12, 'pca5': 0.901, 'pca1': 0.398, 'two_nn_id': 9.278, 'occupied_phenotypes': 116, 'possible_phenotypes': 128, 'phenotypes_covering_95pct': 33}
+HIPC_tcell_Miami done in 37 s
+HIPC_tcell_NHLBI A1 {'k': 12, 'mean_f1': 0.44, 'ari': 0.661, 'nmi': 0.712, 'stability_ari': 0.787, 'n_clusters_found': 12, 'pca5': 0.919, 'pca1': 0.328, 'two_nn_id': 8.447}
+HIPC_tcell_NHLBI A2 {'k': 12, 'mean_f1': 0.432, 'ari': 0.669, 'nmi': 0.754, 'stability_ari': 0.769, 'n_clusters_found': 12, 'pca5': 0.914, 'pca1': 0.309, 'two_nn_id': 8.574}
+HIPC_tcell_NHLBI A3 {'k': 12, 'mean_f1': 0.543, 'ari': 0.717, 'nmi': 0.779, 'stability_ari': 0.874, 'n_clusters_found': 12, 'pca5': 0.917, 'pca1': 0.341, 'two_nn_id': 8.662}
+HIPC_tcell_NHLBI C2 {'k': 12, 'mean_f1': 0.354, 'ari': 0.408, 'nmi': 0.49, 'stability_ari': 0.751, 'n_clusters_found': 12, 'pca5': 0.953, 'pca1': 0.53, 'two_nn_id': 2.784, 'occupied_phenotypes': 32, 'possible_phenotypes': 32, 'phenotypes_covering_95pct': 14}
+HIPC_tcell_NHLBI D {'k': 12, 'mean_f1': 0.355, 'ari': 0.324, 'nmi': 0.491, 'stability_ari': 0.655, 'n_clusters_found': 12, 'pca5': 0.917, 'pca1': 0.381, 'two_nn_id': 9.057, 'occupied_phenotypes': 122, 'possible_phenotypes': 128, 'phenotypes_covering_95pct': 33}
+HIPC_tcell_NHLBI done in 37 s
+HIPC_tcell_Stanford A1 {'k': 12, 'mean_f1': 0.421, 'ari': 0.646, 'nmi': 0.735, 'stability_ari': 0.832, 'n_clusters_found': 12, 'pca5': 0.923, 'pca1': 0.315, 'two_nn_id': 8.626}
+HIPC_tcell_Stanford A2 {'k': 12, 'mean_f1': 0.434, 'ari': 0.694, 'nmi': 0.775, 'stability_ari': 0.784, 'n_clusters_found': 12, 'pca5': 0.914, 'pca1': 0.288, 'two_nn_id': 8.704}
+HIPC_tcell_Stanford A3 {'k': 12, 'mean_f1': 0.431, 'ari': 0.681, 'nmi': 0.759, 'stability_ari': 0.819, 'n_clusters_found': 12, 'pca5': 0.916, 'pca1': 0.296, 'two_nn_id': 8.735}
+HIPC_tcell_Stanford C2 {'k': 12, 'mean_f1': 0.383, 'ari': 0.54, 'nmi': 0.65, 'stability_ari': 0.673, 'n_clusters_found': 12, 'pca5': 0.946, 'pca1': 0.519, 'two_nn_id': 2.754, 'occupied_phenotypes': 32, 'possible_phenotypes': 32, 'phenotypes_covering_95pct': 20}
+HIPC_tcell_Stanford D {'k': 12, 'mean_f1': 0.37, 'ari': 0.408, 'nmi': 0.539, 'stability_ari': 0.577, 'n_clusters_found': 12, 'pca5': 0.905, 'pca1': 0.303, 'two_nn_id': 9.03, 'occupied_phenotypes': 128, 'possible_phenotypes': 128, 'phenotypes_covering_95pct': 56}
+HIPC_tcell_Stanford done in 39 s
+HIPC_tcell_UCLA A1 {'k': 12, 'mean_f1': 0.443, 'ari': 0.634, 'nmi': 0.72, 'stability_ari': 0.752, 'n_clusters_found': 12, 'pca5': 0.924, 'pca1': 0.308, 'two_nn_id': 8.798}
+HIPC_tcell_UCLA A2 {'k': 12, 'mean_f1': 0.54, 'ari': 0.674, 'nmi': 0.742, 'stability_ari': 0.789, 'n_clusters_found': 12, 'pca5': 0.919, 'pca1': 0.287, 'two_nn_id': 8.464}
+HIPC_tcell_UCLA A3 {'k': 12, 'mean_f1': 0.529, 'ari': 0.699, 'nmi': 0.765, 'stability_ari': 0.762, 'n_clusters_found': 12, 'pca5': 0.919, 'pca1': 0.294, 'two_nn_id': 8.641}
+HIPC_tcell_UCLA C2 {'k': 12, 'mean_f1': 0.398, 'ari': 0.518, 'nmi': 0.59, 'stability_ari': 0.626, 'n_clusters_found': 12, 'pca5': 0.943, 'pca1': 0.514, 'two_nn_id': 2.678, 'occupied_phenotypes': 32, 'possible_phenotypes': 32, 'phenotypes_covering_95pct': 21}
+HIPC_tcell_UCLA D {'k': 12, 'mean_f1': 0.332, 'ari': 0.392, 'nmi': 0.53, 'stability_ari': 0.594, 'n_clusters_found': 12, 'pca5': 0.903, 'pca1': 0.296, 'two_nn_id': 9.207, 'occupied_phenotypes': 128, 'possible_phenotypes': 128, 'phenotypes_covering_95pct': 53}
+HIPC_tcell_UCLA done in 38 s
+HIPC_tcell_Yale A1 {'k': 12, 'mean_f1': 0.39, 'ari': 0.616, 'nmi': 0.698, 'stability_ari': 0.784, 'n_clusters_found': 12, 'pca5': 0.921, 'pca1': 0.321, 'two_nn_id': 8.655}
+HIPC_tcell_Yale A2 {'k': 12, 'mean_f1': 0.396, 'ari': 0.596, 'nmi': 0.76, 'stability_ari': 0.799, 'n_clusters_found': 12, 'pca5': 0.91, 'pca1': 0.308, 'two_nn_id': 8.685}
+HIPC_tcell_Yale A3 {'k': 12, 'mean_f1': 0.539, 'ari': 0.78, 'nmi': 0.809, 'stability_ari': 0.842, 'n_clusters_found': 12, 'pca5': 0.921, 'pca1': 0.338, 'two_nn_id': 8.614}
+HIPC_tcell_Yale C2 {'k': 12, 'mean_f1': 0.349, 'ari': 0.48, 'nmi': 0.598, 'stability_ari': 0.755, 'n_clusters_found': 12, 'pca5': 0.951, 'pca1': 0.524, 'two_nn_id': 2.755, 'occupied_phenotypes': 32, 'possible_phenotypes': 32, 'phenotypes_covering_95pct': 16}
+HIPC_tcell_Yale D {'k': 12, 'mean_f1': 0.283, 'ari': 0.4, 'nmi': 0.539, 'stability_ari': 0.66, 'n_clusters_found': 12, 'pca5': 0.913, 'pca1': 0.32, 'two_nn_id': 9.234, 'occupied_phenotypes': 128, 'possible_phenotypes': 128, 'phenotypes_covering_95pct': 38}
+HIPC_tcell_Yale done in 38 s
